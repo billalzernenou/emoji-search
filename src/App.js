@@ -1,9 +1,13 @@
 import "./App.css";
+import emojiList from "./emojiList.json";
+import Search from "./Search";
+import Footer from "./Footer";
 
 function App() {
   return (
-    <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
+    <div className="App">
+      <Search />
+      <Footer />
     </div>
   );
 }
